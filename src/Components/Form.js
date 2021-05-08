@@ -78,7 +78,7 @@ const Form = () => {
                           key={categoria.strCategory}
                           value={categoria.strCategory}
                       >{categoria.strCategory}</option>
-  ))}
+                  ))}
             </select>      
             </div>
 
