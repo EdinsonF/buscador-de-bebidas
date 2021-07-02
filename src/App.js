@@ -2,9 +2,6 @@ import Header from './Components/Header';
 import Form from './Components/Form';
 import Resultado from './Components/Resultado';
 
-
-
-
 import CategoriaProvider from './context/CategoriaContext.js';
 import ResultadoProvider from './context/ResultadoContext';
 import ModalProvider from './context/ModalContext';

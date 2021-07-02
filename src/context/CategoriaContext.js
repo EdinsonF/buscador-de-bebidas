@@ -11,17 +11,13 @@ const CategoriaProvider = (props) => {
       const cargarCategorias = async() => {
             const result = await axios.get('https://www.thecocktaildb.com/api/json/v1/1/list.php?c=list');
       
-            setCategorias(result.data.drinks);
-            
+            setCategorias(result.data.drinks);       
       }
 
       cargarCategorias();
     
 
   }, [])
-
-
-
 
   return (  
         <CategoriaContext.Provider

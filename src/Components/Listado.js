@@ -84,10 +84,12 @@ const llenarLi = info => {
                   <div className="col-md-4 mb-3" key={list.idDrink}>
                     <div className="card" >
                       <h2 className="card-header">{list.strDrink}</h2>
-
+                      <div className="card-body">
                       <img className="card-img-top imagen" src={list.strDrinkThumb} alt={`Imagen de ${list.strDrink  }`}/>
-
-                      <div className="card-body ">
+                      
+                      </div>
+                      
+                      <div className="card-footer ">
                           <button type="button" className="btn btn-block btn-primary pie" onClick={ () => {
                             enviarConsulta(list.idDrink);
                             handleOpen();
